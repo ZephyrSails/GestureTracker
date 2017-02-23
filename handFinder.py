@@ -42,7 +42,6 @@ def getMask(img):
     return mask, thresh
 
 
-
 def getContours(frame):
     frame = cv2.bilateralFilter(frame, 5, 50, 100)  # smoothing filter
     frame = cv2.flip(frame, 1)                      # flip the frame horizontally

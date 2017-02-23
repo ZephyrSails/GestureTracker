@@ -25,4 +25,4 @@ class Controller(object):
 
     def act(self, pred, pos):
 
-        self.speed =
+        self.speed = 99999
